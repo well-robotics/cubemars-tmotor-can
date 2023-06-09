@@ -1,9 +1,13 @@
 ###### 
-added log function 
-added AK60-6, v2.2
-updated the parameters of AK motors based on latest manual from Cubemars 
-added temperature and error code log. 
-corrected temperature number based on latest Chinese manual from Cubemars. 
+1. added log function 
+
+2. added AK60-6, v2.2
+
+3. updated the parameters of AK motors based on latest manual from Cubemars 
+
+4. added temperature and error code log. 
+
+5. corrected temperature number based on latest Chinese manual from Cubemars. 
 
 # C++ Motor Driver for Mini Cheetah-type Actuators from T-Motor/CubeMars
 

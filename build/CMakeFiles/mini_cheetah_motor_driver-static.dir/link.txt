@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmini_cheetah_motor_driver-static.a CMakeFiles/mini_cheetah_motor_driver-object.dir/src/MotorDriver.cpp.o CMakeFiles/mini_cheetah_motor_driver-object.dir/src/CANInterface.cpp.o
+/usr/bin/ranlib libmini_cheetah_motor_driver-static.a
