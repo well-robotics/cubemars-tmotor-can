@@ -32,7 +32,6 @@ namespace CAN_interface
 
     private:
         int socket_descrp_; // File descriptor for the socket as everything in Linux/Unix is a file.
-
     };
 
 }
