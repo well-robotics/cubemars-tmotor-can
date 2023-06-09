@@ -1,3 +1,10 @@
+###### 
+added log function 
+added AK60-6, v2.2
+updated the parameters of AK motors based on latest manual from Cubemars 
+added temperature and error code log. 
+corrected temperature number based on latest Chinese manual from Cubemars. 
+
 # C++ Motor Driver for Mini Cheetah-type Actuators from T-Motor/CubeMars
 
 This driver was developed at the Underactuated Lab in Robotics Innovation Center at DFKI GmbH, Bremen.
