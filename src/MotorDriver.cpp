@@ -46,6 +46,10 @@ namespace motor_driver
       std::cout << "Using Motor Type AK60-6 V2.2" << std::endl;
       current_params_ = default_params::AK60_6_V2p2_params;
       break;
+    case MotorType::AK10_30_cubemars:
+      std::cout << "Using Motor Type AK10-30 Cubemars" << std::endl;
+      current_params_ = default_params::AK10_30_params;
+      break;
     default:
       perror("Specified Motor Type Not Found!!");
     }
@@ -285,8 +289,14 @@ namespace motor_driver
     int i_int = ((CAN_reply_msg[4] & 0xF) << 8) | CAN_reply_msg[5];
 
     int8_t temp, error;
-    temp = CAN_reply_msg[6] - 40; // (-40-215) tempurature. From Chinese manual
-    error = CAN_reply_msg[7];
+    if (sizeof(CAN_reply_msg) > 6)
+      temp = CAN_reply_msg[6] - 40; // (-40-215) tempurature. From Chinese manual
+    else
+      temp = 0;
+    if (sizeof(CAN_reply_msg) > 7)
+      error = CAN_reply_msg[7];
+    else
+      error = 0;
     // convert unsigned ints to floats
     float p =
         uint_to_float(p_int, current_params_.P_MIN, current_params_.P_MAX, 16);

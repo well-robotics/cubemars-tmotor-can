@@ -68,8 +68,13 @@ int main(int argc, char **argv)
     cout << "IDS: " << ids << endl;
   }
 
+  // change the motor type accordingly 
+  // motor_driver::MotorDriver motor_controller(
+      // motor_ids, can_interface, motor_driver::MotorType::AK60_6_V2p2);
+
   motor_driver::MotorDriver motor_controller(
-      motor_ids, can_interface, motor_driver::MotorType::AK60_6_V2p2);
+      motor_ids, can_interface, motor_driver::MotorType::AK10_30_cubemars);
+
 
   cout << "Enabling Motor..." << endl;
   auto start_state = motor_controller.enableMotor(motor_ids);
@@ -89,7 +94,7 @@ int main(int argc, char **argv)
 
   //  Iterate over motor ids to create command map for 90 deg rotation and send
   //  command
-  motor_driver::motorCommand moveCommandStruct = {0, 1.57, 0, 1, 0};
+  motor_driver::motorCommand moveCommandStruct = {0, 1.57, 0, 5, 0};
   std::map<int, motor_driver::motorCommand> commandMap;
   for (int i = 0; i < motor_ids.size(); i++)
   {
@@ -107,7 +112,7 @@ int main(int argc, char **argv)
   {
     commandState = motor_controller.sendRadCommand(commandMap);
     motorLog.logMotor(commandState);
-    if (std::chrono::steady_clock::now() - start > std::chrono::seconds(5))
+    if (std::chrono::steady_clock::now() - start > std::chrono::seconds(1))
       break;
   }
 

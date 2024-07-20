@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC  -std=c++11 -shared -Wl,-soname,libmini_cheetah_motor_driver.so -o libmini_cheetah_motor_driver.so CMakeFiles/mini_cheetah_motor_driver-object.dir/src/MotorDriver.cpp.o CMakeFiles/mini_cheetah_motor_driver-object.dir/src/CANInterface.cpp.o 
+/usr/bin/c++ -fPIC  -std=c++11 -shared -Wl,-soname,libmini_cheetah_motor_driver.so -o libmini_cheetah_motor_driver.so "CMakeFiles/mini_cheetah_motor_driver-object.dir/src/MotorDriver.cpp.o" "CMakeFiles/mini_cheetah_motor_driver-object.dir/src/CANInterface.cpp.o"

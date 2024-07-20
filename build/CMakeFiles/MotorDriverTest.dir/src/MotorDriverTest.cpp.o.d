@@ -1,5 +1,5 @@
 CMakeFiles/MotorDriverTest.dir/src/MotorDriverTest.cpp.o: \
- /home/bucky/Documents/cubemars-tmotor-can/src/MotorDriverTest.cpp \
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/src/MotorDriverTest.cpp \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -163,7 +163,7 @@ CMakeFiles/MotorDriverTest.dir/src/MotorDriverTest.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/bucky/Documents/cubemars-tmotor-can/include/motor_driver/MotorDriver.hpp \
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/include/motor_driver/MotorDriver.hpp \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -186,7 +186,7 @@ CMakeFiles/MotorDriverTest.dir/src/MotorDriverTest.cpp.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/bucky/Documents/cubemars-tmotor-can/include/motor_driver/CANInterface.hpp \
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/include/motor_driver/CANInterface.hpp \
  /usr/include/c++/11/stdlib.h /usr/include/net/if.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -215,5 +215,5 @@ CMakeFiles/MotorDriverTest.dir/src/MotorDriverTest.cpp.o: \
  /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  /usr/include/linux/socket.h /usr/include/linux/can/raw.h \
- /home/bucky/Documents/cubemars-tmotor-can/include/LogFile.hpp \
- /home/bucky/Documents/cubemars-tmotor-can/include/motor_driver/MotorDriver.hpp
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/include/LogFile.hpp \
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/include/motor_driver/MotorDriver.hpp

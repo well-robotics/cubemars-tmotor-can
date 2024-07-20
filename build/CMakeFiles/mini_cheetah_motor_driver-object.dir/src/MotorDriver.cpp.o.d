@@ -1,7 +1,7 @@
 CMakeFiles/mini_cheetah_motor_driver-object.dir/src/MotorDriver.cpp.o: \
- /home/bucky/Documents/cubemars-tmotor-can/src/MotorDriver.cpp \
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/src/MotorDriver.cpp \
  /usr/include/stdc-predef.h \
- /home/bucky/Documents/cubemars-tmotor-can/include/motor_driver/MotorDriver.hpp \
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/include/motor_driver/MotorDriver.hpp \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -124,7 +124,7 @@ CMakeFiles/mini_cheetah_motor_driver-object.dir/src/MotorDriver.cpp.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/bucky/Documents/cubemars-tmotor-can/include/motor_driver/CANInterface.hpp \
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/include/motor_driver/CANInterface.hpp \
  /usr/include/c++/11/stdlib.h /usr/include/c++/11/cstdlib \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \

@@ -62,7 +62,8 @@ namespace motor_driver
         AK10_9_V1p1,
         AK10_9_V2p1,
         AK70_10_V2p1,
-        AK60_6_V2p2
+        AK60_6_V2p2,
+        AK10_30_cubemars
     };
 
     class MotorDriver
@@ -239,6 +240,21 @@ namespace motor_driver
             45,    // V_MAX
             -15.0, // T_MIN
             15.0,  // T_MAX
+            0.0,   // KP_MIN
+            500.0, // KP_MAX
+            0,     // KD_MIN
+            5,     // KD_MAX
+            1      // AXIS_DIRECTION
+        };
+
+                // Working parameters for AK10-30 Damiao firmware
+        const motorParams AK10_30_params = {
+            -12.5, // P_MIN
+            12.5,  // P_MAX
+            -45,   // V_MIN
+            45,    // V_MAX
+            -18.0, // T_MIN
+            18.0,  // T_MAX
             0.0,   // KP_MIN
             500.0, // KP_MAX
             0,     // KD_MIN

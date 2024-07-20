@@ -1,7 +1,7 @@
 CMakeFiles/mini_cheetah_motor_driver-object.dir/src/CANInterface.cpp.o: \
- /home/bucky/Documents/cubemars-tmotor-can/src/CANInterface.cpp \
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/src/CANInterface.cpp \
  /usr/include/stdc-predef.h \
- /home/bucky/Documents/cubemars-tmotor-can/include/motor_driver/CANInterface.hpp \
+ /home/bucky/Documents/repos/HardwareIndividual/cubemars-tmotor-can/include/motor_driver/CANInterface.hpp \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

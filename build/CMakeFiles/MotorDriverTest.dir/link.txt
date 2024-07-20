@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++11 -rdynamic CMakeFiles/MotorDriverTest.dir/src/MotorDriverTest.cpp.o -o MotorDriverTest  libmini_cheetah_motor_driver-static.a 
+/usr/bin/c++  -std=c++11 -rdynamic CMakeFiles/MotorDriverTest.dir/src/MotorDriverTest.cpp.o -o MotorDriverTest  libmini_cheetah_motor_driver-static.a
